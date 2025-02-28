@@ -1,9 +1,15 @@
+#ifndef UNICODE
+#define UNICODE
+#endif
+
 #include <Windows.h>
 #include <iostream> 
 
 
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR lpCmdLine, int nCmdShow) {
+    
+    
     _SYSTEM_INFO systemInfo;
 
     GetNativeSystemInfo(&systemInfo);
